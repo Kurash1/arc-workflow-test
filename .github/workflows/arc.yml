@@ -23,7 +23,4 @@ jobs:
 
     - name: Run Arc-Valley.exe
       run: |
-        chmod +x dotnet.exe
-        chmod +x Arc-Valley.dll
-        chmod +x Arc-Valley.exe
         dotnet Arc-Valley.dll
