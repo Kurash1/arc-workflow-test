@@ -24,4 +24,4 @@ jobs:
     - name: Run Arc-Valley.exe
       run: |
         chmod +x Arc-Valley.exe
-        ./Arc-Valley.exe script
+        mono Arc-Valley.exe script
