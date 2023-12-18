@@ -10,7 +10,7 @@ on:
 
 jobs:
   run-arc-valley:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
@@ -23,4 +23,5 @@ jobs:
 
     - name: Run Arc-Valley.exe
       run: |
-        ./Arc-Valley.exe all
+        chmod +x Arc-Valley.exe
+        ./Arc-Valley.exe script
